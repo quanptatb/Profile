@@ -1,16 +1,11 @@
 .slideshow-container {
     width: 100%;
     height: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .mySlider-fade img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.mySlider-fade{
     width: 80%;
     height: 100%;
     object-fit: cover;
