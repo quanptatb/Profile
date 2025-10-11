@@ -1,0 +1,8 @@
+    /* Back-to-top */
+    #backToTop {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      display: none;
+      z-index: 1040
+    }

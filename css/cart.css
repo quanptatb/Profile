@@ -1,0 +1,24 @@
+
+    .card.profile {
+      background: linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .02));
+      border: 1px solid rgba(255, 255, 255, .08)
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(255, 255, 255, .25)
+    }
+
+    .badge-skill {
+      background: rgba(13, 110, 253, .15);
+      color: #bcd3ff;
+      border: 1px solid rgba(13, 110, 253, .3)
+    }
+
+    .project-card {
+      background: linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .02));
+      border: 1px solid rgba(255, 255, 255, .08)
+    }

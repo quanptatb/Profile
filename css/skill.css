@@ -1,0 +1,7 @@
+    .skill .progress {
+      background: rgba(255, 255, 255, .1)
+    }
+
+    .skill .progress-bar {
+      background: linear-gradient(90deg, var(--brand), var(--brand-2))
+    }

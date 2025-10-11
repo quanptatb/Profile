@@ -1,0 +1,31 @@
+.navbar {
+    backdrop-filter: saturate(1.2) blur(10px);
+    background: rgba(10, 15, 25, .7) !important;
+}
+
+.navbar .nav-link {
+    color: #e8ecf3
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: var(--brand)
+}
+
+.hero-mask {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(5, 10, 20, .6), rgba(5, 10, 20, .9));
+}
+
+.carousel-item {
+    height: 70vh;
+    min-height: 480px;
+}
+
+.carousel-item>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(.7);
+}
